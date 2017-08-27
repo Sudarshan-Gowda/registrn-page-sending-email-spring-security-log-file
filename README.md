@@ -24,10 +24,10 @@ In this repository following functionalities is covered:
   
  # Steps to Run this Application:
  
- `Steps 1` : Download this Repository and do maven import, Use Eclipse as Mars , server as Wildfly 10 and DB as My-SQL/ Oracle.
- `Steps 2` : Configure your DB Credential in wildfly server or by directly in standalone.xml
- `Steps 3` : Create DB or just Import DB Scripts which is included in DB-Scripts file of this Repository
- `Steps 4` : Run your Application, and hit the URL and You will be redirected to login page.
+ `Steps 1` : Download this Repository and do maven import, Use Eclipse as Mars , server as Wildfly 10 and DB as My-SQL/ Oracle.         
+ `Steps 2` : Configure your DB Credential in wildfly server or by directly in standalone.xml                                            
+ `Steps 3` : Create DB or just Import DB Scripts which is included in DB-Scripts file of this Repository                                
+ `Steps 4` : Run your Application, and hit the URL and You will be redirected to login page.                                            
  
  If you guys get any Issues in this repository feel free to coment, I can Help you guys to resolve the isues.
  

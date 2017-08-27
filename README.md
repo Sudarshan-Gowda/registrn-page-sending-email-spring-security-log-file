@@ -1,14 +1,13 @@
-# Registration_page-sending_email_for_created_user_spring-security_for_login_page-Dynamic_Log_file_generation_based_on_user-Traking_IP_Address
+# Spring mvc & Thymeleaf
 
 
-In this repository following functionalities is covered:
+In this repository following functionalities is covered:                                                                                 
 
-`1` : Registartion page for New User
-`2` : Sending Email for User Successfull Registration 
-`3` : Showing Screen Message 
-`4` : Login Page for Existing User with Spring Security and Session Time Out.
-`5` : Creating Dynamic Log File based on User and current Date.
-`6` : Tracking IP Address of Client User and printing in Log File
+`1` : Registartion page for New User                                                                                                     `2` : Sending Email for User Successfull Registration 
+`3` : Showing Screen Message                                                                                                             
+`4` : Login Page for Existing User with Spring Security and Session Time Out.                                                           
+`5` : Creating Dynamic Log File based on User and current Date.                                                                         
+`6` : Tracking IP Address of Client User and printing in Log File                                                                       
 
 # Technology Used
  `1` : Spring MVC

@@ -1,4 +1,5 @@
 package com.star.sud.framework.dao;
+
 /*@Author Sudarshan*/
 import javax.annotation.Resource;
 import javax.persistence.EntityManager;
@@ -22,10 +23,12 @@ public class StarUtilDaoImp implements StarUtilDao {
 	}
 
 	@SuppressWarnings("unchecked")
+	@Override
 	public <T> T createEntityObj(String entityClass, Class<T> type) {
 		return (T) create(entityClass);
 	}
 
+	@Override
 	public Object create(String entityClass) {
 		return entityConfiguration.createEntityInstance(entityClass);
 

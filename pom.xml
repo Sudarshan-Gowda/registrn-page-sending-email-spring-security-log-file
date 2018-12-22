@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.star.sud</groupId>
-	<artifactId>registrn-page-sending-email-spring-security-log-file</artifactId>
+	<artifactId>Spring-Mvc-Thymeleaf-Registration</artifactId>
 	<version>1.0.0</version>
 	<packaging>war</packaging>
 

@@ -1,4 +1,5 @@
 package com.star.sud.framework.service;
+
 /*@Author Sudarshan*/
 import javax.annotation.Resource;
 
@@ -23,4 +24,5 @@ public class StarUtilServiceImpl implements StarUtilService {
 		return starUtilDao.createEntityObj(entityClass, type);
 	}
 
+	 
 }

@@ -124,27 +124,29 @@ public class StarLoginController {
 	public String newUserRegistrn(Model model, @ModelAttribute("registration") Registration registration,
 			RedirectAttributes redirectAttributes) {
 
-		StarUser user = (StarUser) starUtilService.save(setStarUser(registration));
-		if (user != null) {
+		try {
 
-			String Subject = "Registartion Successfull !!!";
-			String msg = "Dear " + registration.getFirstName() + " " + registration.getLastName()
-					+ "\n Your account is Successfully Created. \n you can login with User Name: "
-					+ registration.getUserName() + " " + " & Password: " + registration.getPassword();
+			StarUser user = starSecurityService.findSysUserName(registration.getUserName());
+			if (user != null) {
+				throw new Exception("User Already Exist. Please try with different User Name");
+			}
 
-			String fromAddrs="sudarshan@gmail.com";//change accordingly
-			String password="****";//change accordingly
-			
-			starEmailConfigurationService.sendMail(fromAddrs,password, registration.getEmail(),
-					Subject, msg);
+			user = (StarUser) starUtilService.save(setStarUser(registration));
+			model.addAttribute("registration", registration);
+			if (user != null) {
 
+				redirectAttributes.addAttribute("starMessage",
+						"Your Account is successfully created !! Login to Access the Application");
+
+				return "redirect:/";
+			}
+
+		} catch (Exception e) {
+
+			model.addAttribute(STAR_MESSAGE, e.getMessage());
 		}
 
-		model.addAttribute("registration", registration);
-
-		redirectAttributes.addAttribute(STAR_MESSAGE, "Your Account is successfully created !!");
-
-		return "redirect:/";
+		return "registarion/registarion";
 	}
 
 	private void updateLog4jConfiguration(String logFile, HttpServletRequest request) {

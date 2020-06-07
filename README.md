@@ -29,9 +29,13 @@ In this repository following functionalities is covered:
  `Steps 3` : Create DB or just Import DB Scripts which is included in DB-Scripts file of this Repository                                
  `Steps 4` : Run your Application, and hit the URL and You will be redirected to login page.                                            
  
- If you guys get any Issues in this repository feel free to coment, I can Help you guys to resolve the isues.
- 
- Thank you guys, Have a great day.
+<img src="https://github.com/Sudarshan-Gowda/Spring-Mvc-Thymeleaf-Registration/blob/master/docs/Picture1.PNG"/>
+<img src="https://github.com/Sudarshan-Gowda/Spring-Mvc-Thymeleaf-Registration/blob/master/docs/Picture2.PNG"/>
+<img src="https://github.com/Sudarshan-Gowda/Spring-Mvc-Thymeleaf-Registration/blob/master/docs/Picture3.PNG"/>
+<img src="https://github.com/Sudarshan-Gowda/Spring-Mvc-Thymeleaf-Registration/blob/master/docs/Picture4.PNG"/>
+<img src="https://github.com/Sudarshan-Gowda/Spring-Mvc-Thymeleaf-Registration/blob/master/docs/Picture5.PNG"/>
+<img src="https://github.com/Sudarshan-Gowda/Spring-Mvc-Thymeleaf-Registration/blob/master/docs/Picture6.PNG"/>
+<img src="https://github.com/Sudarshan-Gowda/Spring-Mvc-Thymeleaf-Registration/blob/master/docs/Picture7.PNG"/>
  
 
  

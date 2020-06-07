@@ -38,7 +38,7 @@
 		<!-- Apche, commons -->
 		<apache-commons.version>3.3.2</apache-commons.version>
 
-		<spring-data-jpa.version>1.3.0.RELEASE</spring-data-jpa.version>
+		<spring-data-jpa.version>1.11.23.RELEASE</spring-data-jpa.version>
 
 	</properties>
 

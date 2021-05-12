@@ -33,7 +33,7 @@
 
 		<spring-security-config-version>3.2.3.RELEASE</spring-security-config-version>
 
-		<spring-security-web-version>3.2.3.RELEASE</spring-security-web-version>
+		<spring-security-web-version>5.2.10.RELEASE</spring-security-web-version>
 
 		<!-- Apche, commons -->
 		<apache-commons.version>3.3.2</apache-commons.version>
